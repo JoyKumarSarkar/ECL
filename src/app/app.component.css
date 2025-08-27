@@ -1,0 +1,49 @@
+
+
+/* Minimal & professional menu bar styles */
+.minimal-menu-parent {
+	background: transparent;
+	border: none;
+	border-radius: 0;
+	font-size: 1rem;
+	font-weight: 500;
+	color: #000000;
+	transition: background 0.15s, color 0.15s;
+	cursor: pointer;
+}
+.minimal-menu-parent-active {
+	background: #f6f8fa;
+	color: #000000;
+}
+.minimal-menu-parent:hover {
+	background: #f6f8fa;
+	color: #242424;
+	cursor: pointer;
+}
+.minimal-menu-link {
+	background: transparent !important;
+	border: none;
+	border-radius: 0;
+	font-size: 0.97rem;
+	color: #626262 !important;
+	font-weight: 400;
+	padding: 0;
+	padding-left: 0.5rem;
+	transition: color 0.15s, background 0.15s;
+}
+.minimal-menu-link-active {
+	color: #000000 !important;
+	font-weight: 500;
+	background: #f6f8fa !important;
+}
+.minimal-menu-link:hover {
+	color: #1b1b1b !important;
+	background: #f6f8fa !important;
+	cursor: pointer !important;
+}
+.minimal-menu-children {
+	border-left: 2px solid #f0f1f3;
+	margin-left: 0.5rem;
+	padding: 0;
+	padding-left: 0.5rem;
+}
